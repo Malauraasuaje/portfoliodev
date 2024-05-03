@@ -1,13 +1,13 @@
 button {
     position: relative;
     padding: 8px 25px;
-    background: #f3d9d6;
+    background: #ebb3ad;
     font-size: 14px;
     font-weight: 300;
     color: #faf5f5;
     border: 3px solid #fabadd;
     border-radius: 60px;
-    box-shadow: 0 0 0 #fec1958c;
+    box-shadow: 0 0 0 #0000008c;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
   }
