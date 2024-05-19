@@ -1,13 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+  font-family: "Montserrat", sans-serif;
+}
+h6{
+  font-family: "Montserrat";
+}
+nav{
+  font-size: "Montserrat";
+  font-size: small;
+  color: black
+}
 button {
     position: relative;
-    padding: 8px 25px;
-    background: #ebb3ad;
-    font-size: 14px;
+    padding: 6px 8px;
+    background: #f8f5f54d;
+    font-family: "Montserrat";
+    font-size: 2em;
     font-weight: 300;
-    color: #faf5f5;
-    border: 3px solid #fabadd;
-    border-radius: 60px;
-    box-shadow: 0 0 0 #0000008c;
+    color: #faf5f5a1;
+    border: 1px solid black;
+    border-radius: 50px;
+    border-width: 1px;
+    box-shadow: 0 0 0 gray;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
   }
@@ -18,9 +33,10 @@ button {
     left: 20%;
     width: 25px;
     height: auto;
-    filter: drop-shadow(0 0 0 #fffdef);
+    filter: drop-shadow(0 0 0 black);
     z-index: -5;
     transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
+    border-radius: 10px;
   }
   
   .star-2 {
@@ -29,9 +45,10 @@ button {
     left: 40%;
     width: 15px;
     height: auto;
-    filter: drop-shadow(0 0 0 #fffdef);
+    filter: drop-shadow(0 0 0 black);
     z-index: -5;
     transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+    border-radius: 10px;
   }
   
   .star-3 {
@@ -40,9 +57,10 @@ button {
     left: 40%;
     width: 5px;
     height: auto;
-    filter: drop-shadow(0 0 0 #fffdef);
+    filter: drop-shadow(0 0 0  black);
     z-index: -5;
     transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+    border-radius: 10px;
   }
   
   .star-4 {
@@ -51,9 +69,10 @@ button {
     left: 40%;
     width: 8px;
     height: auto;
-    filter: drop-shadow(0 0 0 #fffdef);
+    filter: drop-shadow(0 0 0 black);
     z-index: -5;
     transition: all 0.8s cubic-bezier(0, 0.4, 0, 1.01);
+    border-radius: 10px;
   }
   
   .star-5 {
@@ -62,9 +81,10 @@ button {
     left: 45%;
     width: 15px;
     height: auto;
-    filter: drop-shadow(0 0 0 #fffdef);
+    filter: drop-shadow(0 0 0  black);
     z-index: -5;
     transition: all 0.6s cubic-bezier(0, 0.4, 0, 1.01);
+    border-radius: 10px;
   }
   
   .star-6 {
@@ -73,15 +93,17 @@ button {
     left: 50%;
     width: 5px;
     height: auto;
-    filter: drop-shadow(0 0 0 #fffdef);
+    filter: drop-shadow(0 0 0  black);
     z-index: -5;
     transition: all 0.8s ease;
+    border-radius: 10px;
   }
   
   button:hover {
     background: transparent;
-    color: #e4b7c8;
-    box-shadow: 0 0 25px #fdcee88c;
+    color: black;
+    box-shadow: 0 0 25px  rgb(243, 214, 214);
+    border-radius: 10px;
   }
   
   button:hover .star-1 {
@@ -90,8 +112,9 @@ button {
     left: -30%;
     width: 25px;
     height: auto;
-    filter: drop-shadow(0 0 10px #fffdef);
+    filter: drop-shadow(0 0 10px  black);
     z-index: 2;
+    border-radius: 10px;
   }
   
   button:hover .star-2 {
@@ -100,8 +123,9 @@ button {
     left: 10%;
     width: 15px;
     height: auto;
-    filter: drop-shadow(0 0 10px #fffdef);
+    filter: drop-shadow(0 0 10px black);
     z-index: 2;
+    border-radius: 10px;
   }
   
   button:hover .star-3 {
@@ -110,8 +134,9 @@ button {
     left: 25%;
     width: 5px;
     height: auto;
-    filter: drop-shadow(0 0 10px #fffdef);
+    filter: drop-shadow(0 0 10px black);
     z-index: 2;
+    border-radius: 10px;
   }
   
   button:hover .star-4 {
@@ -120,8 +145,9 @@ button {
     left: 80%;
     width: 8px;
     height: auto;
-    filter: drop-shadow(0 0 10px #fffdef);
+    filter: drop-shadow(0 0 10px black);
     z-index: 2;
+    border-radius: 10px;
   }
   
   button:hover .star-5 {
@@ -130,8 +156,9 @@ button {
     left: 115%;
     width: 15px;
     height: auto;
-    filter: drop-shadow(0 0 10px #fffdef);
+    filter: drop-shadow(0 0 10px black);
     z-index: 2;
+    border-radius: 10px;
   }
   
   button:hover .star-6 {
@@ -140,8 +167,9 @@ button {
     left: 60%;
     width: 5px;
     height: auto;
-    filter: drop-shadow(0 0 10px #f8f7ef);
+    filter: drop-shadow(0 0 10px black);
     z-index: 2;
+    border-radius: 10px;
   }
   
   .fil0 {
@@ -150,7 +178,7 @@ button {
   
 
 .landing {
-    background-color: rgb(255, 255, 255);
+    background-color:black;
 }
 
 .footer {
@@ -158,7 +186,8 @@ button {
     bottom: 0;
     left: 0;
     width: 100%;
-    color: rgb(219, 202, 202);
+    color: black;
+    font-family: "Montserrat";
 }
 
 .carousel-inner img {
@@ -175,7 +204,7 @@ button {
 }
 
 .h2, h3, p {
-    color: rgb(56, 58, 58);
+    color: black;
     text-align: center;
     margin-top: 30px;
     margin-top: 50px;
@@ -191,17 +220,17 @@ button {
 }
 
 .name {
-    color: rgba(242, 147, 147, 0.964);
+    color:black;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .title {
-    color: white;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .dark-theme {
-    color: rgb(226, 193, 193) !important; /* Cambiar el color de las letras a negro */
+    color:black!important; /* Cambiar el color de las letras a negro */
 }
 
 .social-icons {
@@ -212,38 +241,29 @@ button {
 }
 
 .social-icons li {
-    margin: 0 5px; /* Espacio entre los iconos */
+  margin: 0 5px; /* Espacio entre los iconos */
 }
 
 .bi-github {
-    color: rgb(171, 64, 192);
+  margin-top: 20px;
+  color: rgb(171, 64, 192);
 }
 
 .bi-filetype-html {
-    color: blueviolet;
+  margin-top: 20px;
+  color: blueviolet;
 }
 
 .bi-filetype-css {
-    color: rgb(223, 194, 184);
+  margin-top: 20px;
+  color: rgb(223, 194, 184);
 }
 
 .bi-filetype-js {
-    color: aquamarine;
+  margin-top: 20px;
+  color: aquamarine;
 }
-
-.parallax {
-    background-image: url('https://64.media.tumblr.com/8b02b4e556af815abafaabf7640ff03c/8f614ebf4dda1efe-70/s400x600/bdbea8205ef8c7b1e4118e55aba858ca8e1aa3d0.gifv');
-    border-radius: 30px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 30vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-position-y: -80px; 
-    max-width: 50vw;
-   margin-top: 3rem;
-   margin-left: 23%;
-  }
+.mb-3{
+margin-top: 20px;
+color:black
+}
