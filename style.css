@@ -214,3 +214,12 @@ color:black
 .slider .slide:hover {
   cursor: pointer; /* Cambia el cursor al pasar sobre los slides */
 }
+.container{
+  padding: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+}
+.article{
+  max-width: 100px;
+}
