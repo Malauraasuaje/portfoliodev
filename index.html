@@ -208,10 +208,27 @@
                 </div>
             </div>
     </main>
-    </div>
-    </div>
-    </div>
-
+    <form action="" method="post">
+        <!-- campo nombre -->
+        <form action="" method="post">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" autofocus required placeholder="Ingresa tu nombre"><br>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" name="apellidos" id="apellidos" required placeholder="Ingresa tus apellidos"><br>
+            </fieldset>      
+        <!-- campos email -->
+        <fieldset>
+        <label for="email">Email:</label> <br>
+        <input type="email" name="email" id="email" required size="30" placeholder="Ingresa tu email"><br>
+        <textarea name="textarea" id="textarea" required>Contáctame</textarea>
+        </fieldset>
+        <br>
+        <!-- Botones -->
+        <input class="boton" type="submit" value="Enviar" id="enviar">
+        <input class="boton2" type="reset" value="Borrar" id="borrar">
+    </form> 
     </section>
     <footer style="background-color: rgba(245, 244, 244, 0.377) ;" 
         class="d-flex flex-wrap justify-content-between align-items-center py-3  border-top">
@@ -223,13 +240,11 @@
             </a>
             <span style="color: #070707; font-size:small">© 2024 María Laura Company, Inc</span>
         </div>
-
         <ul class="social-icons">
             <li><i class="bi bi-twitter"></i></li>
             <a href=""><li><i class="bi bi-instagram"></i></li></a>
             <li><i class="bi bi-facebook"></i></li>
         </ul>
-
     </footer>
 </body>
 <script src="/script.js"></script>

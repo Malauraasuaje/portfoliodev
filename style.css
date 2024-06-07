@@ -223,3 +223,45 @@ color:black
 .article{
   max-width: 100px;
 }
+form{
+  font-family: "Montserrat", sans-serif;
+  width: 400px;
+  background: linear-gradient(#fffffff5, white) padding-box,
+              linear-gradient(145deg, transparent 25%,#e81cff, #40c9ff) border-box;
+  border: 2px solid transparent;
+  padding: 36px 28px;
+  background-color: transparent;
+  gap: 40px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  margin-left: 35%;
+  margin-top: 5rem;
+}
+/* Estilo para los botones */
+.boton{
+  margin-top: 15px;
+  color: #e81cff;
+}
+.boton2{
+  margin-top: 15px;
+  color: #40c9ff;
+}
+/* Estilos para los datos */
+#nombre{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+#apellidos{
+  display: flex;
+  gap: 2px;
+  flex-direction: column;
+}
+#email{
+  display: flex;
+  gap: 2px;
+  flex-direction: column;
+}
+#textarea{
+
+}
